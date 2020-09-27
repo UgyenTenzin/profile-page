@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-project",
+  "name": "profile-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ugyentenzin.github.io/portfolio-project/",
+  "homepage": "https://ugyentenzin.github.io/profile-page/",
   "dependencies": {
     "@carbon/icons-react": "^10.6.1",
     "@carbon/themes": "^10.7.0",
