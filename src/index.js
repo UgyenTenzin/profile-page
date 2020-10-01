@@ -1,4 +1,4 @@
-import BrowserRouter from "react-router-dom/BrowserRouter";
+import { HashRouter as Router } from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
@@ -6,9 +6,9 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />{" "}
-  </BrowserRouter>,
+  <Router>
+    <App />
+  </Router>,
   document.getElementById("root")
 );
 
